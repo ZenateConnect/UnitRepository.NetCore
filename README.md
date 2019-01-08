@@ -10,7 +10,7 @@ It make for easy to understand and develop when you coding with using those patt
  - Microsoft.EntityFrameworkCore.Proxies V.2.2
  
  # Implementation
- 
+  ...
  
  
  # Learn more about those pattern
