@@ -2,7 +2,7 @@
 Unit Repository is a combination of 2 patterns are Unit of Work Pattern and Repository Pattern.
 It make for easy to understand and develop when you coding with using those patterns.
 
-# Require Software
+# Software Require
  - Visual Studio 2017 or lastest
 
 # Package
