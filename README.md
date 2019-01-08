@@ -8,6 +8,7 @@ It make for easy to understand and develop when you coding with using those patt
  - Microsoft.EntityFrameworkCore.SqlServer V.2.2
  - Microsoft.EntityFrameworkCore.Design V.2.2
  - Microsoft.EntityFrameworkCore.Proxies V.2.2
+ 
 # Implementation
   ...
  
