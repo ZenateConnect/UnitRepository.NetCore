@@ -2,6 +2,9 @@
 Unit Repository is a combination of 2 patterns are Unit of Work Pattern and Repository Pattern.
 It make for easy to understand and develop when you coding with using those patterns.
 
+# Require Software
+ - Visual Studio 2017 or lastest
+
 # Package
  - ASP.NET Core V.2.2
  - Microsoft.EntityFrameworkCore V.2.2
