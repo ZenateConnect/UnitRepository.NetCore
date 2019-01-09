@@ -8,10 +8,10 @@ It make for easy to understand and develop when you coding with using those patt
 
 # Package
  - ASP.NET Core V.2.2
- - Microsoft.EntityFrameworkCore V.2.2
- - Microsoft.EntityFrameworkCore.SqlServer V.2.2
- - Microsoft.EntityFrameworkCore.Design V.2.2
- - Microsoft.EntityFrameworkCore.Proxies V.2.2
+ - Microsoft.EntityFrameworkCore V.2.2.1
+ - Microsoft.EntityFrameworkCore.SqlServer V.2.2.1
+ - Microsoft.EntityFrameworkCore.Design V.2.2.1
+ - Microsoft.EntityFrameworkCore.Proxies V.2.2.1
  
 # Branch
  - master: Source code release version. If you want to custom you can download and include project into your solution.
