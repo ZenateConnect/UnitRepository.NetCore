@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using UnitRepository.Model.Constant;
 
 namespace UnitRepository.Model.Core
 {
@@ -12,14 +13,14 @@ namespace UnitRepository.Model.Core
         [Key]
         public int Id { get; set; }
 
-        [StringLength(Constant.ConstantEntity.LengthFirstName)]
+        [StringLength(ConstantEntity.LengthFirstName)]
         public string FirstName { get; set; }
 
-        [StringLength(Constant.ConstantEntity.LengthLastName)]
+        [StringLength(ConstantEntity.LengthLastName)]
         public string LastName { get; set; }
 
         [NotMapped]
-        [StringLength(Constant.ConstantEntity.LengthFullName)]
+        [StringLength(ConstantEntity.LengthFullName)]
         public string FullName
         {
             get
@@ -27,7 +28,6 @@ namespace UnitRepository.Model.Core
                 return string.Concat(FirstName, " ", LastName);
             }
         }
-
 
     }
 }
