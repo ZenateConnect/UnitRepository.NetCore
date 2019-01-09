@@ -12,8 +12,13 @@ It make for easy to understand and develop when you coding with using those patt
  - Microsoft.EntityFrameworkCore.Design V.2.2
  - Microsoft.EntityFrameworkCore.Proxies V.2.2
  
+# Branch
+ - master: Source code release version. If you want to custom you can download and include project into your solution.
+ - Development: Source code in this branch is developing it may have some issue, if you need to use stable version you need to pull code at master branch.
+ - Implementation: This branch contain about example how to use.
+
 # Implementation
-  ...
+For this project, I seperate project into 3 tiers are Core project, Domain project, and Model project.
  
  
 # Learn more about those pattern
