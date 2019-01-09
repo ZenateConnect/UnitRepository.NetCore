@@ -6,6 +6,14 @@ namespace UnitRepository.Model.Core
 {
     public class BaseEntity
     {
+        public BaseEntity()
+        {
+            CreatedBy = null;
+            CreatedDate = DateTime.Now;
+            ModifiedBy = null;
+            ModifiedDate = null;
+        }
+
         public string CreatedBy { get; set; }
 
         public DateTime CreatedDate { get; set; }
